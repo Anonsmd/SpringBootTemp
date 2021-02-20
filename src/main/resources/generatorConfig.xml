@@ -28,7 +28,7 @@
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
         <!-- 生成po类 -->
-        <javaModelGenerator targetPackage="com.zstu.tbmg.pojo" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.zstu.acmg.pojo" targetProject="src/main/java">
             <property name="enableSubPackages" value="false" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
@@ -38,7 +38,7 @@
             <property name="isMergeable" value="false" />
         </sqlMapGenerator>
         <!-- 生成dao类 -->
-        <javaClientGenerator targetPackage="com.zstu.tbmg.mapper2" targetProject="src/main/java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="com.zstu.acmg.mapper2" targetProject="src/main/java" type="XMLMAPPER">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 需要生产po类的表 -->

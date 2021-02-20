@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zstu</groupId>
-    <artifactId>tbmg</artifactId>
+    <artifactId>acmg</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>tbmg</name>
+    <name>acmg</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
